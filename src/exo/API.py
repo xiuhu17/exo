@@ -18,7 +18,7 @@ from .memory import Memory
 from .parse_fragment import parse_fragment
 from .pattern_match import match_pattern
 from .prelude import *
-from .new_eff import Check_Aliasing
+from .analysis import Check_Aliasing
 from .dataflow import dataflow_analysis
 
 # Moved to new file
