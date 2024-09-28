@@ -6,10 +6,14 @@ from .LoopIR import Alpha_Rename, SubstArgs, LoopIR_Do
 from .configs import reverse_config_lookup, Config
 from .internal_analysis import *
 from .proc_eqv import get_repr_proc
-from .dataflow import LoopIR_to_DataflowIR, ScalarPropagation, GetValues, D
+from .dataflow import LoopIR_to_DataflowIR, ScalarPropagation, D
 
 
 def lift_dexpr():
+    raise NotImplementedError
+
+
+def GetValues():
     raise NotImplementedError
 
 
